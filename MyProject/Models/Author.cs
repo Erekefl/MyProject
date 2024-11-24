@@ -12,7 +12,7 @@ namespace MyProject.Models
 
         public int Age { get; set; }
 
-
+        public string surname { get; set; }
         public ICollection<Book> Books { get; set; }
     }
 }
